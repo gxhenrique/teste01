@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+:root{
+    --cor1:#00578A;
+    --cor2:#19ABFF;
+    --cor3:#0086D6;
+    --cor4:#b16502;
+    --cor5:#c77102;
+    --cor6:#f08903;
+    --cor7:#8dd4fd;
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-teste: 'Permanent Marker', cursive;
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    max-width: 1000px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.274);
+}
+main h1{
+    font-size: 2em;
+    font-family: var(--fonte-teste);
+    font-weight: normal;
+    color: var(--cor3);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
+    text-align: center;
+    margin: auto;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.178);
+    padding: 20px;
+    max-width: 800px;
+    
+}
+main h2{
+    font-size: 1.7em;
+    padding: 7px;
+    font-family: var(--fonte-padrao);
+   
+    background-image: linear-gradient(to right, var(--cor2),  white);
+    border-radius: 3px;
+}
+main p{
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 30px;
+    font-size: 1.1em;
+    font-family: var(--fonte-padrao);
+    
+    
+}
+main img{
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    padding: 27px 10px 26px 10px;
+    
+}
+div.video{
+    position: relative;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+}
+div.video iframe{
+    position: absolute;
+    top: 5%;  
+    left: 5%;  
+    width: 90%;
+    height: 90%;
+}
+aside h3{
+    font-family: var(--fonte-teste);
+    padding: 10px;
+    font-size: 2em;
+}
+.janeiro{
+    background-image: linear-gradient(to right, var(--cor2),  var(--cor7));
+    border-radius: 3px;
+    padding: 4px;
+}

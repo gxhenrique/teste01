@@ -1,0 +1,59 @@
+
+
+main section img{
+    margin: auto;
+    max-width: 70%;
+
+}
+main section a{
+    text-decoration: none;
+    display: block;
+    
+}
+section{
+    background-color: rgb(196, 196, 196);
+    width: 631px;
+    
+    
+    
+    
+    
+    
+}
+
+.img{
+    width: 900px;
+    margin: auto; 
+    
+}
+
+ .img:hover{
+    width: 905px;
+}
+.link{
+    width: 1000px;
+    
+    
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+section{
+    background-color:rgb(196, 196, 196);
+     
+}
+
+.img2{
+    width: 900px;
+    margin: auto;
+    
+}
+.img2:hover{
+    width: 902px;
+}
+
+
+
+
+

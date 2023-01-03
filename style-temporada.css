@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+:root{
+    --cor1:#00578A;
+    --cor2:#19ABFF;
+    --cor3:#0086D6;
+    --cor4:#b16502;
+    --cor5:#c77102;
+    --cor6:#f08903;
+    --cor7:#8dd4fd;
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-teste: 'Permanent Marker', cursive;
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    
+}
+header h1{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    padding: 20px 500px 20px 20px;
+    
+    
+}
+
+header a {
+    text-decoration: none;
+}
+header h1{
+    font-family: var(--fonte-teste);
+    font-size: 3em;
+    color: white;
+    
+   
+}
+nav{
+    background-image: linear-gradient(to bottom,var(--cor5), var(--cor6), var(--cor4));
+    padding: 25px;
+    
+    
+    
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0px 6px 0px 10px;
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    
+    
+}
+nav a:hover{
+    background-color:var(--cor4);
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+main{
+    padding: 10px;
+}

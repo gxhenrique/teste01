@@ -1,0 +1,36 @@
+@charset "UTF-8";
+:root{
+    --cor1:#00578A;
+    --cor2:#19ABFF;
+    --cor3:#0086D6;
+    --cor4:#b16502;
+    --cor5:#c77102;
+    --cor6:#f08903;
+    --cor7:#8dd4fd;
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-teste: 'Permanent Marker', cursive;
+
+
+}
+
+div.videoteste{
+    position: relative;
+    background-color: var(--cor7);
+    padding: 10px;
+    margin: 0px -10px ;
+    padding-bottom: 59%;
+
+}
+
+div.videoteste iframe{
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+h2{
+    text-align: center;
+    margin: -6px 0px 0px 43px;
+}
